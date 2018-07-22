@@ -1,0 +1,51 @@
+/*Include padding and border in the element's total width and height:*/
+ *{
+    box-sizing: border-box;
+} 
+body {
+    /* background-color: black; */
+    width: 100%;
+    background-image: url(../images/redcarpet2.jpg);
+    /* background-repeat: repeat; */
+    background-size: cover;
+    /* padding-bottom: 37%; */
+}
+
+#hollywood-sign h1 {
+  font-size: 50px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  border: 20px dotted;
+  border-color: white;
+  width: 40%;
+  margin: auto; /*Center the div block*/
+  margin-top: 30px;
+  margin-top: 20px;
+  text-align: center; /*center text in border*/
+}
+#start-prompt {
+  font-size: 17px;
+  font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: gold;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+#word {
+  color: white;
+  font-size: 50px;
+  padding: 20px 30px;
+  text-align: center;
+}
+#stats {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+#wins {
+  color: white;
+  font-size: 25px;
+  margin: auto;
+  text-align: center;
+}
