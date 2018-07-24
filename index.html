@@ -4,39 +4,43 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Word Guess Game</title>
+    <title>Hollywood Hangman </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <!--My CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
 
 </head>
 
 <body>
-    <div id="hollywood-sign">
-        <h1>Hollywood
-            <br> Hangman</h1>
-        <br>
-    </div>
-    <div id="start-prompt">
-        <h2>PRESS ANY KEY TO GUESS THE MOVIE</h2>
-    </div>
-<div id = "word">
 
-   <h3> - - - - - - - - - </h3>
-   <div id="wins">
-        <h3>WINS: </h3>
-    </div>
-</div>
-<div id ="stats">
-        <h3>Letters already guessed: </h3>
-        <h3>Number of guesses remain: </h3>
-</div>
+    <h1>Hollywood
+        <br> Hangman</h1>
 
 
+    <div class="col-md-4">
+        <div class="gameBox">
+
+                <div class="underscores">
+                        <span id="word-blanks"></span>
+                    </div> <br>
+            <button id="startButton" onclick="startGame()">Click Start Game</button>
+            <h2 class="gameStats">Wins :
+                <span id="wins"></span>
+            </h2>
+            <h2 class="gameStats">Loses :
+                <span id="loses"></span>
+            </h2>
+            <h2 class="gameStats">Guesses Remain :
+                <span id="guessRemain"></span>
+            </h2>
+            <h2 class="gameStats">Wrong guesses :
+                <span id="wrongGuess"></span>
+            </h2>
+            
+        </div>
+    </div>
+
+    <script src="assets/javascript/game.js" type="text/javascript"> </script>
 </body>
-<!--My JS-->
-<script src="assets/javascript/game.js"></script>
-
 
 </html>

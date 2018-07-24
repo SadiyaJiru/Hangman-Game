@@ -5,47 +5,43 @@
 body {
     /* background-color: black; */
     width: 100%;
-    background-image: url(../images/redcarpet2.jpg);
+    background-image: url(../images/redcarpet0.jpg);
     /* background-repeat: repeat; */
     background-size: cover;
     /* padding-bottom: 37%; */
 }
 
-#hollywood-sign h1 {
+ h1 {
   font-size: 50px;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: white;
+  color: black;
   border: 20px dotted;
-  border-color: white;
+  border-color: gold;
   width: 40%;
   margin: auto; /*Center the div block*/
   margin-top: 30px;
   margin-top: 20px;
   text-align: center; /*center text in border*/
 }
-#start-prompt {
-  font-size: 17px;
-  font-style: italic;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: gold;
-  width: 60%;
-  margin: auto;
-  text-align: center;
-}
-#word {
-  color: white;
-  font-size: 50px;
-  padding: 20px 30px;
-  text-align: center;
-}
-#stats {
-  color: white;
+h2{
   font-size: 20px;
-  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  border-color: gold;
+  width: 45%;
 }
-#wins {
-  color: white;
-  font-size: 25px;
-  margin: auto;
-  text-align: center;
+.gameBox{
+  margin-top: 10%;
+  margin-left: 40%;
+  
+}
+#startButton{
+  font-size: 20px;
+  width: 25%;
+  color: green;
+}
+
+#word-blanks{
+  color: black;
+  font-size: 50px;
 }
