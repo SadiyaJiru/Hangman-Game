@@ -3,7 +3,7 @@
 	var movies = ['deadpool','grease','batman','avatar','shrek','titanic','goodfellas']
 	var	wins = 0; //// counter for # of wins
 	var	loss = 0; // sets the stat
-	var	guessesLeft = 15; // 26 guesses to start with 
+	var	guessesLeft = 15; // 15 guesses to start with 
 	var	wrongLetter =[];
 	var rightLetter =[];
 	var	underScores =[]; // creates the space for each word 
@@ -24,7 +24,7 @@
 		underScores = [];
 
 		for(var i = 0; i < randMovie.length; i ++){
-				underScores.push('_'); // new item to the array
+				underScores.push('_');
 		}
 		//printing underscores to screen with blanks spaces in between		
 		document.getElementById('word-blanks').innerHTML = underScores.join(" ");

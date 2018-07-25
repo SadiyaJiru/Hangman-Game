@@ -45,3 +45,36 @@ h2{
   color: black;
   font-size: 50px;
 }
+/*larger screen*/
+@media screen and (max-width: 980px){
+body{
+  background-color: black;
+}
+.container{
+  width: 810px;
+}
+}
+/*medium screen*/
+@media screen and (max-width: 768px){
+  body{
+    background-color: black;
+  }
+  .container{
+    width: 600px;
+  }
+  }
+  /*medium screen*/
+@media screen and (max-width: 640px){
+  body{
+    background-color: black;
+  }
+  .container{
+    width: 420px;
+  }
+  }
+
+
+
+
+
+
