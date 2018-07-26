@@ -1,6 +1,6 @@
 	//Globabl Variables
 	//array that includes the hangman words
-	var movies = ['deadpool','grease','batman','avatar','shrek','titanic','goodfellas']
+	var movies = ['deadpool','grease','batman','avatar','shrek','titanic','goodfellas', "spiderman", "inception", ""]
 	var	wins = 0; //// counter for # of wins
 	var	loss = 0; // sets the stat
 	var	guessesLeft = 15; // 15 guesses to start with 
