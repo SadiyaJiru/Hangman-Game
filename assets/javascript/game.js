@@ -72,6 +72,7 @@
 	//userInput
 	document.onkeyup = function(event)
 	{
+		//
 		userGuess = event.key;
 
 	//	console.log(userGuess);
